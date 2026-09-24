@@ -8,4 +8,4 @@ RUN playwright install chromium
 
 COPY . .
 
-CMD ["python", "neshan_scraper.py", "--search", "رستوران", "--total", "20", "--headless", "True"]
+CMD ["python", "neshan_scraper.py", "--search", "رستوران", "--total", "20", "--headless"]
